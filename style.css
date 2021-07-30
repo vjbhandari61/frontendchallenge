@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('./images/bg-desktop.svg');
+    background-position: absolute;
+}
+#img img{
+    margin: 20px;
+}
+.image img{
+    margin: 40px;
+    margin-top: -40px;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 60vw;
+    margin-top: 50px;
+    height: 200px;
+    width: 40%;
+    margin-top: -35%;
+    flex-direction: column;
+}
+#heading{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 39px;
+}
+
+#paragraph{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 19px;
+}
+#btn{
+    color: hsl(300, 67%, 64%);
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    width: 15rem;
+    background-color: papayawhip;
+}
+#btn:hover{
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
